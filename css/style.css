@@ -1,0 +1,119 @@
+body{
+    font-family: 'Overpass', sans-serif;
+    display: flex;
+    box-sizing: border-box;
+    height: 100vh;
+    background-color: hsl(216, 12%, 8%);
+    color: white;
+}
+
+
+.hidden{
+    display: none;
+}
+
+.card{
+    box-sizing: border-box;
+    width: 420px;
+    height: 420px;
+    padding: 30px;
+    margin: auto ;
+    align-items: center;
+    border-radius: 20px;
+    background: linear-gradient(
+        to bottom,
+        hsl(213, 19%, 18%),
+        hsl(216, 12%, 10%)
+      );
+}
+
+.card img{
+    display: flex;
+    padding: 16px;
+    border-radius: 50%;
+    background-color: hsl(213, 19%, 20%);
+    margin-bottom: 10px;
+}
+
+
+.card p{
+    color: hsl(216, 12%, 54%);
+}
+
+
+.rating{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+.rating button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    background-color: hsl(213, 19%, 18%);
+    color: hsl(216, 12%, 54%);
+    font-weight: 700;
+    font-size: 1.2em;
+    
+}
+
+.submit{
+    display: flex;
+    width: 100%;
+    border-radius: 40px;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding: 15px;
+    margin: 40px 0;
+    justify-content: center;
+    letter-spacing: 2px;
+    color: white;
+    background-color: hsl(25, 97%, 53%);
+}
+
+.submit:hover{
+    color: hsl(25, 97%, 53%);
+    background-color: white;
+    cursor: pointer;
+}
+
+.rating button:hover{
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    cursor: pointer;
+}
+
+.rating button:focus{
+    background-color: hsl(217, 12%, 63%);
+    color: white;
+}
+
+.thank_you{
+    text-align: center;
+    
+}
+
+.thank_you img{
+    border-radius: 0;
+    background-color: transparent;
+    display: inline;
+}
+
+.highlight{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.highlight p{
+    color: hsl(25, 97%, 53%);
+    margin: 0;
+    background-color: hsl(213, 19%, 18%);
+    padding: 10px 20px;
+    border-radius: 30px;
+}
